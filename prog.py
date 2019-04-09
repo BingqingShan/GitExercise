@@ -6,4 +6,5 @@ def num_vowels(item):
     for i in item:
         if i in ["a", "e", "i", "o", "u"]:
             vowel += 1
-    return vowel
+    if vowels >= 2:
+        return True
